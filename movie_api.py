@@ -9,7 +9,7 @@ def callMovieApi(page=1):
 
     responseDict = response.json() # 딕셔너리 타입으로 변환
     movies = responseDict["data"]["movies"] # list 타입
-    #print(type(movies))
+    print(type(movies))
     return convert_model(movies)
 
 
