@@ -11,6 +11,7 @@ def temp():
     today_temp = target.text
     today_temp1 = dict([["temp", today_temp]])
     #list.append(today_temp1)
+    #print(today_temp1)
     return today_temp1
 
 def temp2():
