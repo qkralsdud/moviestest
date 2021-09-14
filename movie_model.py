@@ -1,4 +1,4 @@
-class MoiveModel():
+class MoiveModelTest():
     def __init__(self, rating, summary, small_cover_image, title):
         self.rating = rating
         self.summary = summary

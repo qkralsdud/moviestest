@@ -1,4 +1,4 @@
-from movie_model import MovieModel
+from movie_model import MoiveModelTest
 import requests
 
 def callMovieApi(page=1):
@@ -17,7 +17,7 @@ def convert_model(movies):
     list = []
 
     for movie in movies:
-        movie_model = MovieModel(movie["rating"], movie["summary"], movie["small_cover_image"],movie["title"])
+        movie_model = MoiveModelTest(movie["rating"], movie["summary"], movie["small_cover_image"],movie["title"])
         list.append(movie_model)
     print(list)
     return list
